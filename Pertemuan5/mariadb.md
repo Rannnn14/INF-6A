@@ -52,3 +52,4 @@ Flush privileges => FLUSH PRIVILEGES;
 exit;
 
 login sebagai usrcompro_NIM dan cek apakah bisa akses ke DB yang baru dibuat
+![alt text](image-5.png)

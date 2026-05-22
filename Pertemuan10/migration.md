@@ -6,8 +6,10 @@
 3. Install tools unzip -> sudo apt install unzip -y 
 4. cd /var/www/html
 5. extract standalone.zip -> unzip standalone.zip
-6. cek hasil Extract -> ls -R / dari filezilla 
+6. cek hasil Extract -> ls -R / dari filezilla
+   
 ![alt text](image-2.png)
+
 7. Install Interpreter untuk Apps base node JS sesuai dokumentasi resmi
 https://nodejs.org/en/download
   - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
@@ -16,10 +18,13 @@ https://nodejs.org/en/download
   - Verify the Node.js version:
     - node -v
   - Verify npm version:
-    - npm -v 
+    - npm -v
+      
 ![alt text](image-1.png)
+
  - Install PM2 untuk session state -> npm intall pm2@latest -g
  - pm2 -v
+   
 ![alt text](image-3.png)
 
 8. Export - Import DB 
@@ -30,7 +35,9 @@ https://nodejs.org/en/download
     - use dbcompro_NIM;
     - Copy Paste Query ctrl+A file sql export -> Klik Kanan di terminal AWS
     -show tables;
+
 ![alt text](image-4.png)
+
 9. kita sesuaikan file .env
 - cd standalone
 - sudo nano .env
@@ -42,7 +49,10 @@ https://nodejs.org/en/download
  - ctrl+x -> y -> Enter 
 10. pm2 start server.js
 11. tambah / buka port 3000 di AWS Security Groups
+   
 ![alt text](image-5.png)
+
 12. Akses http://[IP_ADDRESS]:3000
 13. akses BE http://[IP_ADDRESS]:3000/admin edit berita ke 2 tambahkan nama - nim
+    
 ![alt text](image-6.png)

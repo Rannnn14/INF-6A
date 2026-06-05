@@ -18,7 +18,7 @@
 Buat repoitory baru pada docker hub
 "uas_dinamis_2388010016"
 "uas_2388010016"
-![alt text](image-2.png)
+![alt text](image-16.png)
 
 ## Konfigurasi GitHub Repository Secrets
 ![alt text](image-3.png)
